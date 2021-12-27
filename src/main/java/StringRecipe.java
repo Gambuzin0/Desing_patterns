@@ -4,7 +4,6 @@ public class StringRecipe {
 
     private List<StringTransformer> StrTransformers;
 
-
     public StringRecipe(List<StringTransformer> strTransformers) {
         this.StrTransformers = strTransformers;
     }
@@ -15,6 +14,4 @@ public class StringRecipe {
             step.execute(drink);
         }
     }
-
-
 }
